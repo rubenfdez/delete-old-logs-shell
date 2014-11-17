@@ -3,7 +3,7 @@
 source entorno.conf
 
 FECHA=`date +"%Y-%m-%d"`
-LOG_FILE="/MIDDLEWARE/uti/logs/logDelete.log.$FECHA"
+LOG_FILE="/path/logDelete.log.$FECHA"
 
 log(){
 # Escribe en $LOG_FILE el mensaje formateado $1
